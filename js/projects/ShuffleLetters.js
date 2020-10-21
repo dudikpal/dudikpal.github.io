@@ -5,9 +5,8 @@ export default function shuffleLetters() {
     const descriptionContent = `
     2020 10. 08.
     <br>This program shuffle the letters of words, 
-        except the first and the last letter, and the sentence still readable!This program shuffle the letters of words, 
-        except the first and the last letter, and the sentence still readable!This program shuffle the letters of words, 
-        except the first and the last letter, and the sentence still readable!
+        except the first and the last letter, and the 
+        sentence still readable!
     `; 
 
     const id = "ShuffleLetters";
@@ -22,8 +21,7 @@ export default function shuffleLetters() {
     //languages pages
     const csharp = document.querySelector(`#${id} .csharp`);
     const java = document.querySelector(`#${id} .java`);
-    toActivate(id, csharp, "C#", descriptionContent, "https://github.com/dudikpal/ShuffleLetters", "#");
-    
+    toActivate(id, csharp, "C#", descriptionContent, "https://github.com/dudikpal/ShuffleLetters", "#");    
 };
 
 function toActivate(id, language, languageName, descriptionContent, consoleVersionURL, guiVersionURL) {
