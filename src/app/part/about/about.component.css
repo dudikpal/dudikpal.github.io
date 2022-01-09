@@ -1,0 +1,68 @@
+
+.buttons{
+  display: flex;
+  /*width: 400px;
+  height: 400px;*/
+  align-items: center;
+  justify-content: space-around;
+}
+.buttons .row{
+  display: block;
+  margin-left: 0px;
+}
+.buttons .row button, a{
+  position: relative;
+  display: block;
+  height: 35px;
+  width: 180px;
+  margin: 40px 0;
+  color: #111;
+  font-size: 18px;
+  font-weight: 700;
+  /*text-shadow: 0px -1px 0px rgba(129, 129, 129, 0.4);*/
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 0 5px 5px 0;
+  transition: all 0s ease-out;
+}
+.row button:active{
+  top: 3px;
+}
+.row button.facebook,
+.row button.facebook span{
+  background: #d9d9d9;
+  border-left: 1px solid #c0c0c0;
+  box-shadow: 0px 5px 0px 0px #818181;
+}
+.row button.facebook:active{
+  box-shadow: 0px 2px 0px 0px #363636;
+}
+
+.row button span{
+  position: absolute;
+  height: 35px;
+  width: 60px;
+  top: 0px;
+  left: -60px;
+  line-height: 35px;
+  font-size: 25px;
+  display: block;
+  font-weight: normal;
+  border-radius: 5px 0 0 5px;
+}
+.row button:active span{
+  top: -3px;
+}
+.row button.facebook span{
+  border-right: 1px solid #363636;
+}
+
+.row button.facebook:active span{
+  box-shadow: 0px 5px 0px 0px #363636,
+  6px 4px 2px rgba(0,0,0,0.3);
+}
+
+.img-btn {
+  width: 1.5rem;
+}

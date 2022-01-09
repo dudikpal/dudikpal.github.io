@@ -1,0 +1,22 @@
+div {
+  margin: 30px auto;
+  width: 100%;
+  max-width: 600px;
+
+}
+
+textarea {
+  border-radius: 5px;
+  background: #f6f6f6;
+  color: #000000;
+  border: none;
+  display: flex;
+  width: 100%;
+  resize: none;
+  line-height: 1.4;
+  overflow: visible;
+  height: auto;
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+}
