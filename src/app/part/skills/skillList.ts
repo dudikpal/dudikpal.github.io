@@ -2,5 +2,7 @@ export const skillList = [
   'Regular expression',
   'Docker',
   'Git',
-  'Angular'
+  'Angular',
+  'SQL',
+  'CSS'
 ];

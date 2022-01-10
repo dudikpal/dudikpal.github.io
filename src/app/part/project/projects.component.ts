@@ -11,40 +11,19 @@ import {BaseService} from "../../service/base.service";
 })
 export class ProjectsComponent implements OnInit {
 
-  projects: Project[] = [];
-  //selectedProjectName: string = this.projects[0].name;
+  projects: Project[] = projectList;
 
   constructor(
     private baseService: BaseService
   ) {
-    this.fillProjects();
   }
 
   ngOnInit(): void {
-
+    console.log(this.projects)
   }
 
   sendData(data: Project) {
     this.baseService.emitData(data);
-  }
-
-
-  fillProjects(): void {
-    for (let project of projectList) {
-
-      this.projects.push(
-        new Project(
-          <string>project[0],
-          <string>project[1],
-          <string[]>project[2],
-          <string>project[3],
-          <string>project[4],
-          <string>project[5],
-          <string>project[6],
-          <string>project[7]
-        )
-      );
-    }
   }
 
 }

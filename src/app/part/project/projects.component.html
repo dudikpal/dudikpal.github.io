@@ -3,10 +3,10 @@
   <div class="container">
 
     <div class="section-title">
-      <h2>Hobby projects</h2>
-      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-        fugiat sit in iste officiis commodi quidem hic quas.</p>
+      <h2>My hobby projects</h2>
+      <p>You see in this section, what I finished, and have a frontend.
+        All other projects with only backend mostly, you see under github item.
+      </p>
     </div>
 
     <div class="row" data-aos="fade-up">
@@ -29,8 +29,8 @@
         <a routerLink="/project-detail"
            (click)="sendData(proj)"
         >
-          <div class="portfolio-wrap">
-            <img src="{{proj.thumbImage}}" class="img-fluid" alt="" id="{{proj.name}}}">
+          <div >
+            <img src="{{proj.thumbImage}}" class="img-fluid" [title]="proj.title" id="{{proj.name}}}">
           </div>
         </a>
       </div>
