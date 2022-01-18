@@ -45,4 +45,9 @@ export const challengeSitesArray = [
     faviconUrl: 'https://resources.beecrowd.com.br/judge/favicon.ico?1635097036',
     profilePage: 'https://www.beecrowd.com.br/judge/en/users/statistics/550115'
   },
+  {
+    name: 'JS CheckIO',
+    faviconUrl: 'https://dk1vwk12q8pjl.cloudfront.net/cdn/files2/images/favicon/apple-touch-icon-57x57.png',
+    profilePage: 'https://js.checkio.org/user/dudikpal/'
+  },
 ];
