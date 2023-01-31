@@ -18,5 +18,9 @@ export const experienceList = [
   ["Machine Operator",
   "2016 - 2018",
   "Teva Pharmaceuticals",
-  "Pharmaceutical machine operator."]
+  "Pharmaceutical machine operator."],
+  ["Junior software engineer",
+    "2021 - ",
+    "BitNinja",
+    "Software deeloper."]
 ];

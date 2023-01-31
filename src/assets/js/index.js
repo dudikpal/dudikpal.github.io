@@ -11,12 +11,13 @@ window.onload = function() {
 
             indexLabel: "{label}",
             dataPoints: [
-                {y: 30, label: "Java"},
+                {y: 50, label: "Java"},
                 {y: 20, label: "C#"},
                 {y: 20, label: "TypeScript"},
                 {y: 15, label: "JavaScript"},
                 {y: 10, label: "Html"},
-                {y: 10, label: "CSS"}
+                {y: 10, label: "CSS"},
+                {y: 10, label: "PHP"}
             ]
         }]
     });

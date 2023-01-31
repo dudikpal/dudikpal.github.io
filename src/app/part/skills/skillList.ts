@@ -4,5 +4,8 @@ export const skillList = [
   'Git',
   'Angular',
   'SQL',
-  'CSS'
+  'CSS',
+    'Rancher1-2',
+    'Postman',
+    'Swagger'
 ];
