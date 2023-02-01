@@ -22,5 +22,5 @@ export const experienceList = [
   ["Junior software engineer",
     "2021 - ",
     "BitNinja",
-    "Software deeloper."]
+    "Software developer."]
 ];
