@@ -24,8 +24,8 @@ export const projectList = [
     title: 'Base mathematical training',
     selectors: 'filter-java filter-js',
     usedTechnology: 'Java (Spring Boot), JavaScript',
-    projectUrl: 'https://basic-math-training.herokuapp.com/',
-    projectDetails: `Generate basic mathematical expressions, like addition, subtraction, multiply and divide.
+    projectUrl: 'https://base-math-training.onrender.com/',
+    projectDetails: `It is on free hosting, so the first load takes longer (1 minute). Generate basic mathematical expressions, like addition, subtraction, multiply and divide.
 Help to the student in math learning, and training them.`
   },
   {
@@ -35,6 +35,7 @@ Help to the student in math learning, and training them.`
       'assets/img/portfolio/quizelementary.png',
       'assets/img/portfolio/quizelementary-2.png',
       'assets/img/portfolio/quizelementary-3.png',
+      'assets/img/portfolio/quizelementary-admin.png',
       'assets/img/portfolio/quizelementary-mobile-1.png',
       'assets/img/portfolio/quizelementary-mobile-2.png',
       'assets/img/portfolio/quizelementary-mobile-3.png'
@@ -42,8 +43,8 @@ Help to the student in math learning, and training them.`
     title: 'Quiz game to training students',
     selectors: 'filter-java filter-js',
     usedTechnology: 'Java (Spring Boot), JavaScript, MongoDB (MongoCloud)',
-    projectUrl: 'https://quizgame-elementary.herokuapp.com/',
-    projectDetails: `
+    projectUrl: 'https://quizgame-dudikpal.onrender.com/',
+    projectDetails: `It is on free hosting, so the first load takes longer (1 minute). 
 This "game" working with a database (MongoDB).
 Has an admin page with password security (Spring Security),where the admin can create, update, and upload questions from file too, also create new category.`
   },

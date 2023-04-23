@@ -7,5 +7,7 @@ export const skillList = [
   'CSS',
     'Rancher1-2',
     'Postman',
-    'Swagger'
+    'Swagger',
+    'DBeaver',
+    'Mongo compass'
 ];
